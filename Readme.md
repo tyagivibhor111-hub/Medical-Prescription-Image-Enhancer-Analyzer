@@ -1,4 +1,4 @@
-Medical Prescription Image Enhancer & Analyzer
+🩺 Medical Prescription Image Enhancer & Analyzer
 Overview
 
 Doctors often write prescriptions by hand, and many times the medicine names become difficult to read because of poor handwriting, blurred photos, low lighting, or camera quality. This creates confusion for patients and pharmacists, increasing the chances of mistakes while purchasing or consuming medicines.
@@ -74,14 +74,50 @@ Folder Structure
 Medical-Prescription-Analyzer/
 │
 ├── app.py
+├── .env
+├── requirements.txt
 ├── templates/
 │   └── index.html
-├── static/style.css
+├── static/
 └── README.md
+Environment Variables
 
+Create a .env file in the project root.
+
+GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+Installation
+
+Clone the repository
+
+git clone https://github.com/tyagivibhor111-hub/Medical-Prescription-Analyzer.git
+
+Move into the project directory
+
+cd Medical-Prescription-Analyzer
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the application
+
+python app.py
+Future Improvements
+OCR integration for accurate medicine extraction
+Automatic medicine database lookup
+Drug interaction detection
+PDF prescription support
+Multi-language prescription recognition
+Medicine dosage extraction
+Downloadable medical report
+Disclaimer
 
 This project is intended for educational and research purposes only. The generated information should not replace professional medical advice. Always consult a qualified healthcare professional before making any medical decisions.
 
 Author
+
+Vibhor Tyagi
+
+B.Tech Computer Science Engineering
 
 Vibhor Tyagi
