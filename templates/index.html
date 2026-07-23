@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Image Recognition App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="scanline"></div>
+
+    <main class="console">
+        <header class="console-head">
+            <span class="tag">DIAGNOSTIC IMAGING · v1.0</span>
+            <h1>Medical Image Recognition</h1>
+            <p class="sub">Upload a scan and let the model draft a descriptive read.</p>
+        </header>
+
+        <form method="post" enctype="multipart/form-data">
+            <label for="file">Choose a medical image</label>
+
+            <div class="dropzone">
+                <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png" required>
+                <span class="dropzone-text">
+                    <strong>Drop file</strong> or click to browse
+                    <small>JPG · JPEG · PNG</small>
+                </span>
+            </div>
+
+            <input type="submit" value="Generate Medical Description">
+        </form>
+
+        {% if response_text %}
+            <div class="result">
+                <span class="result-tag">Output</span>
+                <p>{{ response_text }}</p>
+            </div>
+        {% endif %}
+    </main>
+</body>
+</html>
