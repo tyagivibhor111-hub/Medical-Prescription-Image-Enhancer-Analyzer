@@ -117,7 +117,3 @@ This project is intended for educational and research purposes only. The generat
 Author
 
 Vibhor Tyagi
-
-B.Tech Computer Science Engineering
-
-Vibhor Tyagi
