@@ -7,7 +7,7 @@ This project was built to solve that problem. It takes an image of a medical pre
 
 The goal of this project is to make handwritten prescriptions easier to understand while reducing the possibility of human error caused by unclear images.
 
-The Problem
+The Problem…
 
 Medical prescriptions are frequently shared through messaging apps or captured using mobile phones. These images often suffer from:
 
