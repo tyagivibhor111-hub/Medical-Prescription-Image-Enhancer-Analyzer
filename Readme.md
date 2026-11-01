@@ -1,4 +1,4 @@
-🩺 Medical Prescription Image Enhancer & Analyzer
+Medical Prescription Image Enhancer & Analyzer
 Overview
 
 Doctors often write prescriptions by hand, and many times the medicine names become difficult to read because of poor handwriting, blurred photos, low lighting, or camera quality. This creates confusion for patients and pharmacists, increasing the chances of mistakes while purchasing or consuming medicines.
